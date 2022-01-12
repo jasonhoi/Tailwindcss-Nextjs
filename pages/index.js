@@ -9,7 +9,7 @@ export default function Home() {
             <label className="block">
                 <span className="block text-sm font-medium text-gray-700">Username</span>
             </label>
-            <input type="text" value="input value" class="btn"/>
+            <input type="text" value="input value" className="btn"/>
         </form>
         
         <div className="flex flex-row space-x-4">
