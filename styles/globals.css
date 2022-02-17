@@ -6,6 +6,31 @@ body{
     @apply bg-gray-200;
 }
 
-.btn {
-    @apply mt-1 block px-3 py-2 bg-white border border-gray-300 rounded-md text-sm shadow-sm placeholder-gray-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500 disabled:bg-gray-50 disabled:text-gray-500 disabled:border-gray-200 disabled:shadow-none;
+.form-input {
+    @apply w-96 mt-1 block px-3 py-2 bg-white border border-gray-300 rounded-md text-sm shadow-sm placeholder-gray-400 
+    focus:outline-none focus:border-violet-500 focus:ring-1 focus:ring-violet-500 
+    invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500 
+    disabled:bg-gray-50 disabled:text-gray-500 disabled:border-gray-200 disabled:shadow-none;
+}
+
+.form-input-full {
+    @apply w-full mt-1 block px-3 py-2 bg-white border border-gray-300 rounded-md text-sm shadow-sm placeholder-gray-400 
+    focus:outline-none focus:border-violet-500 focus:ring-1 focus:ring-violet-500 
+    invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500 
+    disabled:bg-gray-50 disabled:text-gray-500 disabled:border-gray-200 disabled:shadow-none;
+}
+.form-checkbox {
+    @apply w-5 h-5 accent-violet-500 bg-gray-50 border border-gray-300 focus:ring-1 focus:ring-violet-100 focus:outline-none;
+}
+
+.btn-gray {
+    @apply font-semibold active:bg-gray-800 
+    focus:ring-gray-300 focus:ring focus:outline-none text-white text-sm 
+    bg-gray-500 hover:bg-gray-600 text-center rounded-md px-5 py-2;
+}
+
+.btn-purple {
+    @apply font-semibold active:bg-violet-800 
+    focus:ring-violet-300 focus:ring focus:outline-none text-white text-sm 
+    bg-violet-500 hover:bg-violet-600 text-center rounded-md px-5 py-2;
 }

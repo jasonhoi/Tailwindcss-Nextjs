@@ -6,11 +6,30 @@ export default function Home() {
   return (
     <div className="xl:container mx-auto p-10 bg-white">
         <form className="mb-6">
-            <label className="block">
-                <span className="block text-sm font-medium text-gray-700">Username</span>
-            </label>
-            <input type="text" value="input value" className="btn"/>
+            <label className="label">Email</label>
+            <input type="text" className="form-input mb-4" defaultValue="" placeholder='name@example.com'/>
+            
+            <label className="label">Username</label>
+            <input type="text" className="form-input mb-4" defaultValue="some input value" />
+            
+            <label htmlFor="password">Your password</label>
+            <input type="password" id="password" className="form-input mb-4" placeholder="" required/>
+
+            <div className="flex items-start mb-6">
+              <div className="flex items-center h-6">
+                <input id="remember" aria-describedby="remember" type="checkbox" className="form-checkbox" required/>
+              </div>
+              <div className="ml-3">
+                <label htmlFor="remember">Remember me</label>
+              </div>
+            </div>
+
+            <div className="space-x-4">
+              <button type="button" className="btn-purple">Save changes</button>
+              <button className="btn-gray">Cancel</button>
+            </div>
         </form>
+<<<<<<< HEAD
         
         <div className="flex flex-row gap-2">
           <button className="leading-5 font-semibold active:bg-violet-800 
@@ -23,6 +42,8 @@ export default function Home() {
           </button>
         </div>
         
+=======
+>>>>>>> e12d8335ba9815d7632ebb0213b464427d1711d8
     </div>
   )
 }
