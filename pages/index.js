@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className="lg:container mx-auto p-10 bg-white">
+    <div className="xl:container mx-auto p-10 bg-white">
         <form className="mb-6">
             <label className="block">
                 <span className="block text-sm font-medium text-gray-700">Username</span>
@@ -12,7 +12,7 @@ export default function Home() {
             <input type="text" value="input value" className="btn"/>
         </form>
         
-        <div className="flex flex-row space-x-4">
+        <div className="flex flex-row gap-2">
           <button className="leading-5 font-semibold active:bg-violet-800 
           focus:ring-violet-300 focus:ring focus:outline-none text-white text-sm 
           bg-violet-500 hover:bg-violet-600 text-center rounded-full px-5 py-2">Button</button>
